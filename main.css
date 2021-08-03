@@ -1,0 +1,447 @@
+
+*{
+
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    background-color: rgb(221, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+  
+
+.container{
+
+
+    
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    border: 1px solid black;
+    background-color: rgb(26, 23, 23);
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    box-shadow: 0px 35px 55px rgb(0, 0, 0);
+   
+}
+
+
+
+.container .left_con{
+
+
+    position: relative;
+    /* background-color: rgb(53, 5, 5); */
+    background-color: rgb(55, 47, 124);
+    padding: 40px;
+
+}
+
+.container .right_con{
+
+
+    position: relative;
+    background-color: whitesmoke ;
+    padding: 40px;
+
+}
+
+
+.Profile{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(141, 61, 61)
+
+
+}
+
+
+.Profile .Profile-Pic{
+
+
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+
+}
+
+.Profile .Profile-Pic img{
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+
+.Profile h2{
+
+
+    color: whitesmoke;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    line-height: 1.2em;
+    font-weight: 600px;
+   
+}
+
+
+.Profile h2 span{
+
+
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+
+
+.AboutMe{
+
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 15px;
+      
+
+}
+
+.AboutMe h3{
+
+
+    color: whitesmoke;
+    font-size: 1.3em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 30px;
+    line-height: 1.2em;
+    font-weight: 600px;
+
+
+}
+
+
+.AboutMe .aboutMeTxt{
+
+
+    margin-top: 15px;
+    color: whitesmoke;
+    font-size: 1.090em;
+    font-weight: 300px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+    text-align:left;
+
+}
+
+
+.contactDetails{
+
+
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* padding-bottom: px; */
+
+
+
+}
+.contactDetails h3{
+
+
+    color: whitesmoke;
+    font-size: 1.3em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 30px;
+    line-height: 1.2em;
+    font-weight: 600px;
+    padding-bottom: 15px;
+
+
+}
+
+.contactDetails ul{
+
+
+    position: relative;
+
+
+}
+
+.contactDetails ul li{
+
+
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    /* line-height: 1.8em; */
+    margin: 15px 0px;
+
+}
+
+.contactDetails ul li .icon{
+
+
+    display: inline-block;
+    width:30px;
+    font-size: 18px;
+    color:whitesmoke
+
+}
+
+.contactDetails ul li span{
+
+
+    color:whitesmoke;
+    /* font-size: 1.08em; */
+    font-size: 1.19em;
+   
+
+}
+
+
+.contactDetails .Langs h3{
+
+
+    color: whitesmoke;
+    font-size: 1.3em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 30px;
+    line-height: 1.2em;
+    font-weight: 600px;
+    padding-bottom: 15px;
+
+
+}
+
+.contactDetails .Langs ul{
+
+
+    position: relative;
+
+
+}
+
+.contactDetails .Langs ul li{
+
+
+    position: relative;
+    list-style:disc ;
+    cursor: pointer;
+    /* line-height: 1.8em; */
+    margin: 15px 15px;
+    color: whitesmoke;
+
+}
+
+
+.Xp{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 90px;
+    
+
+}
+
+.Xp .work{
+
+    position: relative;
+    margin-top: 30px;
+    
+}
+
+
+.Xp h2{
+
+    font-size: 2.1em;
+    padding-bottom: 30px;
+    border-bottom:1px solid red;
+
+}
+
+.Xp h3{
+
+    font-size: 1.55em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.Xp span {
+
+    font-size:1.2em;
+  
+   
+}
+
+.CLangs{
+
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 90px;
+
+}
+
+.CLangs h2{
+
+
+    font-size: 2.1em;
+    padding-bottom: 30px;
+    border-bottom:1px solid red;
+
+}
+.CLangs .box {
+
+    position: relative;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 150px 1fr;
+    justify-content:center;
+    align-items:baseline;
+    margin-top: 10px;
+
+}
+
+.CLangs .box h4{
+
+
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.CLangs .box .percent{
+
+
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #b8b1b1;
+   
+
+}
+
+.CLangs .box .percent div{
+
+
+    position: absolute;
+    top:0;
+    left: 0;
+    height:100%;
+    background-color: #03a9f4;
+   
+
+}
+
+
+.Education{
+
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 90px;
+    
+}
+
+.Education h2{
+
+    font-size: 2.1em;
+    padding-bottom: 30px;
+    border-bottom:1px solid red;
+}
+
+
+.Education ul{
+
+
+    position: relative;
+
+
+}
+
+.Education ul li{
+
+
+    position: relative;
+    list-style:disc ;
+    cursor: pointer;
+    /* line-height: 1.8em; */
+    margin: 15px 15px;
+    
+
+}
+
+.Education ul li h5{
+
+
+    
+    font-size: 1.2em;
+    margin-top: 10px;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+    
+
+} 
+
+.Education ul li h4{
+
+
+    
+    font-size: 1.5em;
+    margin-top: 10px;
+    font-weight: 500;
+    /* line-height: 20px; */
+    
+
+} 
+.Education ul li h3{
+
+
+    
+    font-size: 1.5em;
+    margin-top: 10px;
+    font-weight: 500;
+    color: red;
+   
+    
+
+} 
+
